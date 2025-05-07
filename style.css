@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.ota{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.367), black), url(./orig.webp);
+    background-size: cover;
+}
+.ogil{
+    width:85%;
+    margin: auto;
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 250px;
+    cursor: pointer;
+}
+.ota li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.ota li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.ota .conteiner{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%0);
+    text-align: center;
+
+}
+.ota .conteiner h1{
+    color: white;
+    font-size: 35px;
+}
+.ota .conteiner p{
+    color: grey;
+    font-size: 20px;
+}
+.buttons button{
+    width: 200px ;
+    padding: 15px 0px ;
+    margin: 20px 10px ;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid grey;
+    color: grey;
+}
+.buttons button:hover{
+    border: 1px solid orangered;
+    background-color: rgba(255, 0, 0, 0.411);
+    color: white;
+    border-top-right-radius: 0px;
+    transition: all 0s;
+    transform: scale(1.02);
+}
+
+
